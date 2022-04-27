@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+{% block styles%}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+{%endblock%}
+
+{% block content%}
+<h4 class="m-5 pt-5" id="about">ABOUT COMPANY PAGE</h4>
+<div class="row">
+    <div class="col-md-8 p-5">
+        <p class="font-weight-bold">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <p class="text-secondary">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+        </p>
+    </div>
+    <div class="bars col-md-4">Progress Bars Here</div>
+</div>
+
+<button type="button" class="btn btn-outline-secondary ms-4 mb-3">Get In Touch</button>
+
+{% include 'values.html'%}
+
+{% endblock %}

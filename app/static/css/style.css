@@ -1,0 +1,62 @@
+
+body{
+    margin: 0 !important;
+}
+
+.jumbotron {
+    background-color: #f4511e;
+    color:#ffffff;
+    padding: 100px;
+}
+
+.navbar{
+    background-color: #f4511e;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.navbar-toggler{
+    background-color: white
+
+}
+#myNavBar{
+    float: right !important;
+    padding-left: 80px;
+}
+.nav-item {
+    padding: 30px;
+}
+a{
+    color: #ffffff !important;
+}
+
+input{
+    width: 40%;
+
+}
+
+.navbar-nav li a:hover{
+    color:#f4511e !important;
+    background-color: #ffffff;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#basic-addon2{
+    background-color: #d9534f;
+    border-color: #d9534f;
+    color: #fff
+
+}
+
+.values{
+    background-color: #f6f6f6;
+    padding: 80px;
+}
+
+.values p{
+    color:#818385;
+}
